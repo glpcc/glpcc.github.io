@@ -1,0 +1,166 @@
+body{
+    background-color: #d7eaff;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-nav{
+    background-color: #2e6398;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #437fba;
+}
+
+.hr-line{
+    margin-top: 50px;
+    color: black;
+}
+
+.flag{
+    width: 30px;
+    height: 30px;
+}
+
+.main-container{
+    margin-top: 120px;
+    height: 2000px;
+    animation: fadeInUp 0.75s ease-in-out;
+}
+
+.title-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInLeft 0.75s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.img-javi{
+    width: 250;
+    height: 250px;
+    border-radius: 70%;
+}
+
+.profile-btn{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.profile-text{
+    border: #437fba;
+    border-width: 0.1ch;
+    border-style: solid;
+    animation: fadeInRight 0.75s ease-in-out;
+    align-items: center;
+    display: flex;
+}
+
+.btn-cv{
+    border: #d7eaff;
+    border-width: 0.1ch;
+    border-style: solid;
+    background-color:  #437fba;
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 50px;
+}
+
+.main-projects-container{
+    background-color: #d7eaff;
+    margin-top: 60px;
+    height: 900px;
+    width: 80%;
+}
+
+.main-projects-container-d-sm{
+    background-color: #d7eaff;
+    margin-top: 60px;
+    height: 1700px;
+    width: 80%;
+}
+
+.project{
+    width: 49%;
+    height: 380px;
+}
+
+.project-d-sm{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 380px;
+}
+
+.project a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-d-sm a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    height: 380px;
+}
+
+.card-img-top{
+    margin-top: 15px;
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill-img{
+    width: 45%;
+}
+
+.main-container-contact{
+    padding-bottom: 100px;
+}
+
+.contact-container{
+    height: 440px;
+    width: 80%;
+    margin-top: 60px;
+    background-color: rgb(52, 52, 52);
+    position: relative;
+    border-radius: 3px;
+}
+
+.btn-bottom{
+    position: absolute;
+    bottom: 20px;
+}
+
+.non-color{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-container{
+    margin-right: 30px;
+}
+
+.relleno{
+    height: 10px;
+}
