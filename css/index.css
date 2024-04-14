@@ -87,18 +87,16 @@ body{
     background-color: #d7eaff;
     margin-top: 60px;
     height: 900px;
-    width: 80%;
 }
 
 .main-projects-container-d-sm{
     background-color: #d7eaff;
     margin-top: 60px;
     height: 1700px;
-    width: 80%;
 }
 
 .project{
-    width: 49%;
+    width: 30%;
     height: 380px;
 }
 
