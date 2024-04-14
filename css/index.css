@@ -80,7 +80,7 @@ body{
 
 .logo{
     height: 30px;
-    margin-left: 50px;
+    margin-left: 1vw;
 }
 
 .main-projects-container{
@@ -163,4 +163,8 @@ body{
 
 .relleno{
     height: 10px;
+}
+
+.spanish{
+    display: none;
 }
