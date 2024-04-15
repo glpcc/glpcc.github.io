@@ -15,33 +15,27 @@ for repo in repos:
     print("Do you want to create a card for " + repo["name"] + "?")
     response = input("y/n: ")
     if response == "y":
+        img_name = input("Enter the image name: ")
+        repo["image_name"] = img_name
         wanted_repos.append(repo)
 
-full_html = '<div class="row">'
+full_html = ''
 # Create the card html
-def create_card(repo_link, repo_name, repo_description):
+def create_card(repo_link, repo_name, repo_description,image_name):
     return f"""
-          <div class="container project">
-            <a href="{repo_link}">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="" alt="">
-                <div class="card-body">
-                  <h5 class="card-title english" id="text-title-clustering">{repo_name}</h5>
-                  <p class="card-text english" id="text-description-clustering">{repo_description}</p>
-                  <h5 class="card-title spanish" id="text-title-clustering">{repo_name}</h5>
-                  <p class="card-text spanish" id="text-description-clustering">{repo_description}</p>
-                </div>
-              </div>
-            </a>
+        <a href="{repo_link}">
+          <div class="card zoom-btn">
+            <img class="card-img-top" src="/static/projects/{image_name}" alt="Clustering Project">
+            <div class="card-body">
+              <h5 class="card-title" id="text-title-clustering2">{repo_name}</h5>
+              <p class="card-text" id="text-description-clustering2">{repo_description}</p>
+            </div>
           </div>
+        </a>
     """
 
 columns = 3
 for repo in wanted_repos:
-    if columns == 3:
-        full_html += '</div><div class="row">'
-        columns = 0
-    full_html += create_card(repo["html_url"], repo["name"], repo["description"])
+    full_html += create_card(repo["html_url"], repo["name"], repo["description"],repo["image_name"])
 
-full_html += '</div>'
 print(full_html)
