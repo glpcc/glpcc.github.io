@@ -1,10 +1,10 @@
 body{
-    background-color: #d7eaff;
+    background-color: #fefefe;
     font-family: "Poppins", sans-serif;
 }
 
 .bg-nav{
-    background-color: #2e6398;
+    background-color: #202020;
 }
 
 .navbar{
@@ -73,7 +73,7 @@ body{
     border: #d7eaff;
     border-width: 0.1ch;
     border-style: solid;
-    background-color:  #437fba;
+    background-color:  #000000;
     width: 50%;
     float: left;
 }
@@ -128,7 +128,6 @@ body{
 }
 
 .card-img-top{
-    margin-top: 15px;
     max-height: 250px;
 }
 
@@ -199,7 +198,6 @@ body{
         
     }
     .card-img-top{
-        margin-top: 15px;
         max-height: 330px;
     }
 
@@ -216,7 +214,6 @@ body{
         
     }
     .card-img-top{
-        margin-top: 15px;
         max-height: 330px;
     }
 
