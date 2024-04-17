@@ -137,6 +137,7 @@ body{
 
 .skill-img{
     width: 45%;
+    margin: auto;
 }
 
 .main-container-contact{
@@ -174,6 +175,27 @@ body{
     display: none;
 }
 
+.less_important{
+    display: none;
+}
+
+.btn-projects{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color:  #000000;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 1268px){
     .project-grid{
         display: grid;
@@ -200,6 +222,14 @@ body{
     .card-img-top{
         max-height: 330px;
     }
+    .skills-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+        gap: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 @media screen and (max-width: 768px){
@@ -215,6 +245,15 @@ body{
     }
     .card-img-top{
         max-height: 330px;
+    }
+
+    .skills-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+        gap: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
