@@ -6,6 +6,9 @@ function changeToSpanish() {
     document.querySelectorAll(".spanish").forEach(element => {
         element.style.display = "block";
     });
+
+    document.getElementById("btn-projects-more").innerHTML = "Mostrar más";
+    document.getElementById("btn-projects-less").innerHTML = "Mostrar menos";
 }
 
 function changeToEnglish() {
@@ -15,6 +18,9 @@ function changeToEnglish() {
     document.querySelectorAll(".spanish").forEach(element => {
         element.style.display = "none";
     });
+
+    document.getElementById("btn-projects-more").innerHTML = "Show more";
+    document.getElementById("btn-projects-less").innerHTML = "Show less";
 }
 
 function ShowMoreProjects() {
